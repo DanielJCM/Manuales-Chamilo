@@ -1,0 +1,347 @@
+####################################################
+####Base del Manual de Administracion de Chamilo####
+####################################################
+
+1. Registro de usuario del administrador:
+
+1.1 Ingresamos en el usuario de administrador creado previamente en la instalacion
+
+1.2 Ubicamos el boton de administracion (la ubicacion de este puede variar pero su funcion siempre es la misma)
+
+nos mostrara 7 categorias entre las cuales estan usuarios, cursos, plataforma,  sesiones de formacion, sistema y chamilo.org(elementos de ayuda directamente desde la pagina oficial de chamilo), cada una de ellas con sus propias opciones
+
+
+2. Usuarios
+
+Lo primero que nos muestra en esta y en las otras categorias es una barra de busqueda que nos permitira buscar entre las funciones de éste, una opcion especifica.
+
+en cada categoria se puede editar un cuadro de texto que se mostrara en la parte inferior en el cual se puede dejar contenido para si mismo o para futuros administradores.
+
+2.1. Lista de usuarios: Nos permite ver a todos los usuarios registrados en nuestra plataforma 
+
+Desde aqui podemos visualizar los datos de todos los usuarios registrados:
+
+2.1.1. Foto (Foto del usuario)
+
+2.1.2. Codigo Oficial (Codigo que nos servira por si queremos luego extender o disminuir la matricula estudiantil)
+
+2.1.3. Apellidos (Apellidos de los usuarios)
+
+2.1.4. Nombre (Nombres de los usuairos)
+
+2.1.5. e-mail (Correo electronico de cada usuario)
+
+2.1.6. Perfil (aqui podremos ver el tipo de usuario(Estudiante, Profesor , etc...))
+
+2.1.7. Activo (con solo hacer click en el simbolo verde que sale debajo de esta opcion podemos modificar el estado del usuario a activo o inactivo)
+
+2.1.8. Fecha de Registro (Fecha en la que se registro el usuario)
+
+2.2. Accion(Desde las acciones podremos visualizar algunos otros datos de los usuarios, asi como modificar dichos usuarios, las opciones quenos muestra "Accion" son
+
+   2.2.1. Cursos: cursos a los cuales esta inscrito
+   2.2.2. Sesiones de formacion: a las cuales pertenece
+   2.2.3. Informacion: aun mas informacion del usuario
+   2.2.4. Iniciar sesion como: iniciar sesion como ese usuario en particular
+   2.2.5. Informes: estadisticas e informes del estudiante
+   2.2.6. Editar : Modificar datos del estudiante 
+   2.2.7 El siguiente es un simbolo de estrella que nos dira si ese usuario tiene o no permisos de adminstrador
+   2.2.8 Calendario: nos permite ver el calendario de este usuario
+   2.2.9 Eliminar: permite eliminar al usuario)
+
+Aqui en lista de usuarios lo que generalmente se hace es la edicion de usuarios en caso de que lo requiera
+
+En la esquina superior derecha tenemos la opcion de añadir usuarios por si queremos añadirlos desde ahi no tener que regresar a la pagina anterior para hacerlo
+
+
+2.3. Añadir usuarios: Nos permite como la opcion lo indica añadir nuevos usuarios al sistema
+
+una vez elijamos esta opcion nos abrira un formulario en el que introduciremos los datos del usuario, el tipo de usuario (profesor, estudiande, etc..), el idioma, si queremos enviarle un e-mail con sus datos de usuario automaticamente al finalizar el registro, tambien podemos añadirle una foto a ese usuario, etc..
+
+al final nos saldran 2 botones: Añadir+ y Añadir el boton Añadir+ lo usaremos si luego de registrar a ese usuario queremos que nos salga otro formulario y seguir registrando, de lo contrario si solo queremos registrar ese unico usuario usaremos el boton de Añadir sin el + 
+
+
+2.4. Cuando se manejan grandes bases de datos de usuarios necesitamos hacer una backup o un respaldo para eso usaremos la tercera opcion "Exportar usuarios a un fichero XML/CSV"
+
+2.4.1. Desde aqui podremos selccionar el tipo de archivo a exportar puede ser XML o CSV 
+
+2.4.2. luego nos dira ¿Añadir la linea de cabecera del (CSV/XML)? esto es para que nos salgan los nombres de las columnas en la cabecera del archivo es recomendable seleccionar que si.
+
+2.4.3. la ultima opcion nos permite seleccionar un curso especifico del cual importar los archivos, en caso de no seleccionar ninguno y dejar la opcion en -- nos exportara todos los usuarios registrados
+
+2.4.4. Luego solo queda darle al boton exportar y listo.
+
+2.5. Importar usuarios desde un fichero XML/CSV
+
+2.5.1. Desde aqui seleccionamos el fichero XML/CSV desde nuestra pc usando el boton "Selccionar archivo"
+
+2.5.2. Escojemos el tipo de archivo CSV/XML
+
+2.5.3. Elegimos si enviar un correo a los usuarios 
+
+podemos verificar que los correos sean unicos 
+
+2.5.4. y listo solo debemos pulsar el boton importar 
+
+2.5.5. luego de importar si nos sale un cuadro color crema con el mensaje "Este nombre de usuario no esta disponible pues ya esta siendo utilizado por otro usuario" esto se debe a que el usuario ya esta en uso y la importacion solo nos puede importar nuevos usuarios 
+
+cabe destacar que los archivos exportados antes de volverlos a importar pueden ser modificados por el administrador si asi lo desea
+
+2.6. Gestionar los campos de usuario
+
+Si hacemos click nos saldra una lista, todos los elementos dentro se ella son los que estan tanto en el registro como internamente al momento de ver el perfil de un usuario
+
+desde aqui podemos seleccionar que campso queremos que aparezcan a la hora de crear un usuario, tambien podemos crear nuestros propios campos de ser necesario (Ej. numero de celular, e-mails alternativos, etc..)
+
+para agergar un nuevo campo debemos hacer click en la hoja de papel que esta en la parte superior izquierda una vez alli podremos elejir:
+
+1. Titulo del campo(nombre)
+2. Tipo de campo(Texto, Area de Texto, Desplegable, Desplegable con eleccion multiple, fecha, fecha y hora, subida de un archivo, etc..)
+3. Etiqueta para el campo
+4. valores posibles
+5. Valor por defecto del campo
+6. Visible (si el campo sera visible)
+7. Modificable(si queremos que pueda ser modificado)
+8. Filtro(si queremos que tenga filtro)
+9. Orden del campo
+
+2.7. Clases
+
+Esta opcion nos servira para controlar, organiar, catalogar, entre otras cosas, los cursos registrados 
+
+Dentro de una clase se pueden registrar varios cursos, o en su defecto varios estudiates dependiendo de las necesides del momento
+
+podemos asociar un curso con otro para mejor organizacion
+
+desde aqui tambien podremos exportar e importar cursos de ser necesario
+
+
+3. Cursos
+
+Desde esta categoria podremos administrar nuestros cursos de una forma mas optima
+
+3.1. Lista de Cursos
+
+en la parte superior izquierda veremos una barra de busqueda desde la cual podremos buscar un curso en particular de manera mas rapida y en la parte superior derecha podremos buscar los cursos por sesiones
+
+Desde aqui podremos ver todos los datos de nuestros cursos Titulo, Codigo, Idioma, Categoria, Inscripcion (si esta permitida o no), anular inscripcion(si se puede o no anularla) y accion(desde aqui podremos ver 
+
+la informacion del curso 
+Utilizacion del curso
+(anuncios, eventos del calendario, documnetos, ejercicios, enlace, foros, grupos, lecciones))
+
+Usuarios inscritos en el curso 
+
+Tambien podemos ir a la pagina principal del curso en el boton de la casa
+
+luego podemos ver las estadisticas del curso, desde aqui podemos ver el grado de progreso y los detalles de cada estudiante
+
+luego desde el lapiz podemos editar los cursos
+
+el icono del cd nos dejara crear un respaldo del curso
+
+y al final con la "X" podemos eliminar cualquier cura
+
+3.2. Crear un curso
+
+al dar click en la opcion de crear un curso nos aparecera un formulario en el cual debemos colocar la informacion del curso
+
+1. titulo
+2. Codigo del curso
+3. Profesor del curso
+4. Categoria del curso
+5. Departamento
+6. URL del departamento
+7. Idioma del curso
+8. Acceso al curso
+En esta opcion seleccionamos si el curso sera 
+8.1. Publico - Acceso para cualquier persona
+8.2. Abierto - Solo los registrados en la plataforma
+8.3. Privado - solo para los miembros del curso
+8.4. Cerrado - solo el admin y el admin del curso pueden verlos
+8.5. Invisible - Solo el admin puede verlo
+9. Inscripcion
+Si esta permitido que los usuarios se inscriban 
+o si solo el admin puede inscribir
+10. Anular Inscripcion
+Si una vez hecha la inscripcion permitimos que puedan anular dicha iscripcion o que solo el admin pueda anular inscripciones
+11. Espacio del Curso en el Servidor
+aqui colocaremos un tamaño en MB que sera el tamaño asignado que tendra el profesor del curso para subir sus archivos al servidor
+
+12. Una vez finalizamos todas las opciones haremos click en crear curso
+
+3.3. Exportar cursos CSV
+
+en este caso a la hora de exportar cursos solo nos permitira hacerlo en formato CSV 
+
+una vez ahi tendremos 2 opciones exportar toda la lista, si asi lo deseamos o exportar solo algunos cursos de la lista 
+esto nos dejara un archivo que mostrara la informacion completa del curso (nombre, id, profesor, idioma, otros profesores y los usuarios que estan actualmente haciendo el curso)
+
+3.4. Importar los cursos desde un fichero CSV
+
+Desde aqui podremos importar los archivos exportados o importar archivos nuevos, recordemos que en la parte baja de la pagina no da un ejemplo de como deben estar organizados los archivos
+
+3.5. Categorias de cursos
+
+Desde aqui podremos crear las categorias que usaremos para nuestros cursos ayudandonos a una mejor administracion de los mismos
+
+
+3.6. inscribir los usuarios a un curso
+
+Desde aqui solo seleccionamos a la izquierda el numero de usuarios que queramos inscribir y seleccionamos a la derecha el curso al que los queramos inscribir luego presionamos el boton añadir a este curso y listo
+
+cabe destacar que podemos selccionar varios usando la tecla ctrl o la tecla shift
+
+
+3.7. importar los usuarios a un curso desde un fichero
+
+Desde aqui podremos importar usuarios desde un fichero que contenga las caracteristicas que indica la pagina, sin embargo no se recomienda ya que es algo muy avanzado y solo deberia utilizarse al tener que introducir una lista de usuarios muy grande
+
+
+3.8 Gestor de campos de curso
+
+Si hacemos click nos saldra una lista, todos los campos que se utilizan a la hora de crear un curso, para agergar un nuevo campo debemos hacer click en la hoja de papel que esta en la parte superior izquierda una vez alli podremos elejir
+
+1. Titulo del campo(nombre)
+2. Tipo de campo(Texto, Area de Texto, Desplegable, Desplegable con eleccion multiple, fecha, fecha y hora, subida de un archivo, etc..)
+3. Etiqueta para el campo
+4. valores posibles
+5. Valor por defecto del campo
+6. Visible (si el campo sera visible)
+7. Modificable(si queremos que pueda ser modificado)
+8. Filtro(si queremos que tenga filtro)
+9. Orden del campo
+
+
+4. Plataforma 
+
+Desde aqui podremos configurar todo sobre el curso de chamilo 
+
+4.1. Parametros de configuracion de Chamilo
+
+Desde aqui podemos configurar ya sea la plaforma, los cursos, los plugin, los recursos, idiomas, etc
+
+se podra configurar los cursos, las sesiones, la apariencia completa de chamilo , etc
+
+4.2 Idiomas
+
+Desde aqui podremos seleccionar que idiomas estan disponibles para seleccionar a la hora de la autentificacion del usuario 
+
+4.3. Plugins
+
+Esta dentro de parametros de configuracion de chamilo, sin embargo ahi es donde se configuran los plugins que queremos nuestra pagina use
+
+4.4. Regiones
+
+especificamos donde queremos que se utilicen los plugins configurados anteriormente
+
+4.5. Anuncios de la plataforma 
+
+Los anuncios de la plataforma son parecidos a los sliders y pueden colocarse tanto en la pagina de inicio, como en el calendiario.
+
+una de sus caracteristicas es que pueden hacerse visibles para todos los  usurios, o solo para algunos, pueden colocarse los anuncios en el calendario de los usuario, etc
+
+4.6. Agenda global
+
+aqui se vera informacion para Todos los usuarios que tengan una agenda (anuncios y esas cosas)
+
+4.7. Configuracion de la pagina de Registro
+
+Aqui veremos los campos a llenar cuando se registra un usuario
+
+4.8. Configuracion de la pagina principal
+
+Desde aqui podremos ver como se esta viendo la pagina principal asi como editarla a conveniencia
+
+tambien podemos agregar nuevos enlaces y editar la parte interior de la pagina
+
+4.9. Estadisticas
+
+nos dejara ver las estadisticas de todo los registrado (Cursos ,usuarios, Sistema, Social(Ej. cuantos numeros de cursos se estan dando))
+
+4.10. Informes 
+
+Similar a estadisticas pero ordenado de una forma un poco mas abstracta y desordenada
+ 
+4.11 Reporte de tiempo de profesores
+
+Aqui nos saldran unas opciones a filtrar con las cuales podemos ver el tiempo que lleva dedicado un profesor a una clase o sesion
+
+5. Sesiones de formacion
+
+Sirve para programar uno o varios curso en un lapso de tiempo (Semanas, meses)
+
+5.1. Sesiones: 
+
+1. Ya no es necesario duplicar cursos
+2. un profesor ya no esta atado exclusivamente a un curso
+3. la actualizacion de un contenido es facil porque solo se le hace la actualizacion al curso base
+4. simultaneamente puede haber un curso para varias sesiones
+5. se puede agrupar en sesiones varios cursos (por ejemplo para un semestre universitario)
+
+NO ES REUTILIZABLE
+1. Foros
+2. Lista de estudiantes
+3. Tareas
+
+ya que estos suelen estar exclusivamente atados a los cursos 
+
+5.2. Lista de sesiones de formacion 
+
+Aqui podremos ver todas las sesiones de informacion creadas, y a su vez tambien podremos editarlas, eliminarlas y crear nuevas sesiones de formacion sin necesidad de regresar a la pagina anterior dandole al icono de la pizarra que esta en la parte superior izquierda
+
+5.3. Crear una sesion
+
+Una vez aqui elegimos el nombre y el profesor encargado de esta sesion, luego nos saldran dos cuadros uno a la derecha y otro a la izquierda, seleccionamos del de la izquierda los  cursos que queramos poner en esta sesion. Seleccionamos y luego damos click en el boton con el simbolo de ">" para pasar los cursos al cuadro de la derecha (los cursos que estan en el cuadro de la derecha son los que tendra nuestra sesion de formacion).
+al final seleccionaremos los usuarios que participaran de dicha sesion escribiendo sus nombre en el cuadro que sale a la izquierda y seleccionandolos
+una vez hecho esto ya tendremos nuestra sesion de formacion creada.
+
+5.4. Categorias de sesiones de informacion 
+
+Aqui seleccionaremos la categoria de nuestra sesion de formacion, en caso de no tener una podemos crear nuestra propia categoria haciendo click en el icono de la carpeta que se encuentra en la parte superior izquierda de la pagina
+
+5.5 Importar sesiones en formato XML/CSV
+
+Desde aqui podremos importar alguna sesion que podamos tener y ademas nos ofrece algunas opciones como:
+
+1. Si la sesión existe, actualizarla con los datos del archivo
+2. Desinscribir los alumnos que no están en una sesión en la lista importada
+3. Limpiar y actualizar los tutores de cursos
+4. Agregarme como tutor
+5. Enviar un correo a los usuarios
+
+5.6 Importar lista de directores RRHH en las sesiones
+
+Si poseemos alguna lista de directores de RRHH podremos importarla desde esta opcion
+
+5.7 Exportar sesiones en formato XML/CSV 
+
+Desde aqui podemos seleccionar y exportar nuestras sesiones eligiendo el formato de nuestra preferencia entre XML y CSV
+
+5.8 Copiar cursos de una sesion a otra
+
+Aqui seleccionaremos los cursos que queremos pasar de "X" sesion a otra sesion y tambien podemos selccionar si queremos una copia completa o si queremos seleccionar los componentes del curso 
+
+5.9 Carreras y promociones
+
+Desde aqui podemos seleccionar las carreras y promociones de nuestras sesiones 
+
+5.10 Gestionar campos de sesion
+
+Aqui veremos los campos que se utilizan a la hora de crear nuestra sesion y ademas podemos agregar nuevos campos si asi lo deseamos haciendo click en el icono de la hoja de papel que estan en la parte superior izquierda
+
+6. Informacion del sistema 
+
+Informacion del sistema desde ahi podremos observar si hay algun problema con alguna extension o archivo en caso de que algo no se este ejecutando correctamente 
+
+
+
+
+
+
+
+
+
+
+
+
